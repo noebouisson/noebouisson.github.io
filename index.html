@@ -190,6 +190,11 @@
   .cert .full { font-size: 13.5px; color: var(--muted); margin-bottom: 10px; }
   .cert p { font-size: 15px; }
   .cert ul { margin-top: 10px; padding-left: 18px; color: var(--muted); font-size: 14.5px; }
+  .cert-link {
+    display: inline-block; margin-top: 14px; padding: 7px 14px; border-radius: 8px;
+    border: 1px solid var(--border); font-size: 14px; font-weight: 600; color: var(--accent);
+  }
+  .cert-link:hover { border-color: var(--accent); text-decoration: none; }
 
   /* Projects */
   .project { display: flex; flex-direction: column; }
@@ -407,26 +412,28 @@ certifs   = [<span class="t-s">HackerRank Python</span>, <span class="t-s">SQL</
         <div class="badge"><span class="mono">py</span></div>
         <div>
           <h3>Certificat Python</h3>
-          <div class="full">HackerRank</div>
+          <div class="full">HackerRank · Python (Basic) · vérifié</div>
           <p>Certification qui valide mes compétences en Python.</p>
           <ul>
-            <li>Types de données, structures, fonctions</li>
-            <li>Programmation orientée objet</li>
-            <li>Résolution de problèmes algorithmiques</li>
+            <li>Types, opérateurs et structures de contrôle</li>
+            <li>Chaînes de caractères, collections et itération</li>
+            <li>Modules, objets et classes</li>
           </ul>
+          <a class="cert-link" href="https://www.hackerrank.com/certificates/3162e2bdd87c" target="_blank" rel="noopener">Voir le certificat →</a>
         </div>
       </div>
       <div class="card cert green reveal">
         <div class="badge"><span class="mono">sql</span></div>
         <div>
           <h3>Certificat SQL</h3>
-          <div class="full">HackerRank</div>
+          <div class="full">HackerRank · SQL (Basic) · vérifié</div>
           <p>Certification qui valide mes compétences en bases de données et requêtes SQL.</p>
           <ul>
-            <li>Requêtes, filtres, tris</li>
-            <li>Jointures et sous-requêtes</li>
-            <li>Agrégations et regroupements</li>
+            <li>Requêtes simples, filtres et tris</li>
+            <li>Relations entre tables (jointures)</li>
+            <li>Fonctions d'agrégation</li>
           </ul>
+          <a class="cert-link" href="https://www.hackerrank.com/certificates/f041ec6ff723" target="_blank" rel="noopener">Voir le certificat →</a>
         </div>
       </div>
     </div>
